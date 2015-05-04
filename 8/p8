@@ -1,0 +1,16 @@
+ 容易 旋转字符串
+22%
+通过
+
+给定一个字符串和一个偏移量，根据偏移量旋转字符串(从左向右旋转)
+样例
+
+给出字符串"abcdefg"
+
+如果偏移量offset=0，返回"abcdefg"
+
+如果偏移量offset=1，返回"gabcdef"
+
+如果偏移量offset=2，返回"fgabcde"
+
+如果偏移量offset=3，返回"efgabcd"
