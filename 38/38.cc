@@ -1,3 +1,4 @@
+// 1 m*logN
 class Solution {
 public:
     /**
@@ -33,4 +34,23 @@ public:
     }
 };
 
+// 2 log(m + n)
+class Solution {
+public:
+    /**
+     * @param matrix: A list of lists of integers
+     * @param target: An integer you want to search in matrix
+     * @return: An integer indicate the total occurrence of target in the given matrix
+     */
+    int searchMatrix(vector<vector<int> > &matrix, int target) {
+        // write your code here
+        if (matrix.size() == 0)
+            return 0;
+        if (matrix[0].size() == 0)
+            return 0;
+        int count = 0;
+        int row = 0;
+        int col = matrix[0].size() - 1;
+        while (row < matrix.size() && col >= 0) {
+            if (matrix[row][col] == target) {
 
