@@ -12,7 +12,7 @@ public:
             return nums[0];
         int b = nums[0];
         int maxSum = nums[0];
-        for (int i = 0; i < nums.size(); i ++) {
+        for (int i = 1; i < nums.size(); i ++) {
             if (b > 0)
                 b = b + nums[i];
             else 
