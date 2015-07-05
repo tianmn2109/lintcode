@@ -1,0 +1,10 @@
+最长公共前缀 查看运行结果 
+
+29% 通过
+给k个字符串，求出他们的最长公共前缀(LCP)
+
+您在真实的面试中是否遇到过这个题？ Yes
+样例
+在 "ABCD" "ABEF" 和 "ACEF" 中,  LCP 为 "A"
+
+在 "ABCDEFG", "ABCEFG", "ABCEFA" 中, LCP 为 "ABC"
